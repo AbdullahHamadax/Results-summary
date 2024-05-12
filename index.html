@@ -24,10 +24,14 @@
       }
     </style>
   </head>
-  <body class="min-w-full text-center font-Hanken">
-    <div class="flex flex-col">
+  <body
+    class="flex flex-col min-w-full min-h-screen text-center sm:justify-center sm:items-center font-Hanken"
+  >
+    <div
+      class="flex flex-col sm:flex-row sm:shadow-xl sm:items-center sm:content-center sm:rounded-3xl"
+    >
       <div
-        class="flex flex-col gap-2 w-full h-[385px] rounded-b-3xl bg-gradient-to-t from-royalblue to-slateblue"
+        class="flex flex-col gap-2 w-full h-[385px] rounded-b-3xl sm:rounded-3xl sm:w-[300px] sm:h-[460px] bg-gradient-to-t from-royalblue to-slateblue"
       >
         <h1 class="p-5 text-lavender text-[18px]">Your Result</h1>
 
@@ -37,9 +41,9 @@
           <p class="text-[50px] font-[800] text-white">76</p>
           <p class="text-opacity-60 text-lavender text-[15px]">of 100</p>
         </div>
-        <div class="flex flex-col gap-2 mt-6">
+        <div class="flex flex-col gap-2 mt-6 sm:gap-3">
           <p class="text-white font-[500] text-2xl">Great</p>
-          <p class="text-lavender max-w-[290px] mx-auto">
+          <p class="text-lavender max-w-[300px] mx-auto">
             You scored higher than 65% of the people who have taken these tests.
           </p>
         </div>
@@ -47,9 +51,9 @@
       <div class="flex flex-col">
         <div class="px-8 pt-5 text-grayblue font-[700] self-start">Summary</div>
         <div class="flex justify-between">
-          <div class="flex flex-col w-full gap-4 p-[25px] mb-5">
+          <div class="flex flex-col w-full gap-4 p-[25px] mb-5 sm:w-[350px]">
             <div
-              class="flex justify-between rounded-[8px] bg-reaction p-[14px] w-full max-w-[400px]"
+              class="flex justify-between rounded-[8px] bg-reaction p-[14px] w-full"
             >
               <div class="flex gap-3">
                 <img
@@ -65,7 +69,7 @@
             </div>
 
             <div
-              class="flex justify-between bg-memory rounded-[8px] p-[14px] w-full max-w-[400px]"
+              class="flex justify-between bg-memory rounded-[8px] p-[14px] w-full"
             >
               <div class="flex gap-3">
                 <img src="assets/images/icon-memory.svg" alt="icon-memory" />
@@ -77,7 +81,7 @@
               </p>
             </div>
             <div
-              class="flex justify-between bg-verbal rounded-[8px] p-[14px] w-full max-w-[400px]"
+              class="flex justify-between bg-verbal rounded-[8px] p-[14px] w-full"
             >
               <div class="flex gap-3">
                 <img src="assets/images/icon-verbal.svg" alt="icon-verbal" />
@@ -89,7 +93,7 @@
               </p>
             </div>
             <div
-              class="flex justify-between bg-visual rounded-[8px] p-[14px] w-full max-w-[400px]"
+              class="flex justify-between bg-visual rounded-[8px] p-[14px] w-full"
             >
               <div class="flex gap-3">
                 <img src="assets/images/icon-visual.svg" alt="icon-visual" />
@@ -101,7 +105,7 @@
               </p>
             </div>
             <button
-              class="p-4 mt-2 text-lg font-semibold text-white bg-grayblue rounded-3xl"
+              class="p-3 mt-2 text-lg font-semibold text-white bg-grayblue rounded-3xl sm:w-[300px] sm:mt-5"
             >
               Continue
             </button>

@@ -25,6 +25,9 @@ module.exports = {
         verbal: "#f2fbfa",
         visual: "#F3F3FD",
       },
+      screens: {
+        edge: { min: "452px" },
+      },
     },
   },
 };
