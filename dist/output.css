@@ -740,6 +740,22 @@ video {
   margin-top: 1.5rem;
 }
 
+.mt-\[50px\]{
+  margin-top: 50px;
+}
+
+.mt-\[40px\]{
+  margin-top: 40px;
+}
+
+.mt-\[20px\]{
+  margin-top: 20px;
+}
+
+.mt-\[10px\]{
+  margin-top: 10px;
+}
+
 .box-border{
   box-sizing: border-box;
 }
@@ -847,12 +863,36 @@ video {
   height: 385px;
 }
 
+.max-h-\[150px\]{
+  max-height: 150px;
+}
+
 .min-h-screen{
   min-height: 100vh;
 }
 
+.min-h-\[150px\]{
+  min-height: 150px;
+}
+
+.min-h-\[160px\]{
+  min-height: 160px;
+}
+
+.min-h-\[180px\]{
+  min-height: 180px;
+}
+
+.min-h-\[170px\]{
+  min-height: 170px;
+}
+
 .w-\[150px\]{
   width: 150px;
+}
+
+.w-\[300px\]{
+  width: 300px;
 }
 
 .w-\[this-is\\\\\]{
@@ -871,29 +911,36 @@ video {
   width: 100%;
 }
 
-.w-fit{
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
-.w-\[300px\]{
-  width: 300px;
-}
-
 .min-w-full{
   min-width: 100%;
 }
 
-.min-w-\[300px\]{
-  min-width: 300px;
+.min-w-\[150px\]{
+  min-width: 150px;
+}
+
+.min-w-\[160px\]{
+  min-width: 160px;
+}
+
+.min-w-\[180px\]{
+  min-width: 180px;
+}
+
+.min-w-\[170px\]{
+  min-width: 170px;
 }
 
 .max-w-\[300px\]{
   max-width: 300px;
 }
 
-.max-w-full{
-  max-width: 100%;
+.max-w-\[150px\]{
+  max-width: 150px;
+}
+
+.flex-none{
+  flex: none;
 }
 
 .flex-shrink{
@@ -1424,6 +1471,22 @@ video {
 
 .gap-4{
   gap: 1rem;
+}
+
+.gap-5{
+  gap: 1.25rem;
+}
+
+.gap-10{
+  gap: 2.5rem;
+}
+
+.gap-8{
+  gap: 2rem;
+}
+
+.gap-6{
+  gap: 1.5rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
@@ -2159,6 +2222,10 @@ video {
   line-height: 1.75rem;
 }
 
+.text-\[20px\]{
+  font-size: 20px;
+}
+
 .font-\[500\]{
   font-weight: 500;
 }
@@ -2746,6 +2813,38 @@ video {
     margin-top: 70px;
   }
 
+  .sm\:mt-2{
+    margin-top: 0.5rem;
+  }
+
+  .sm\:mt-\[10px\]{
+    margin-top: 10px;
+  }
+
+  .sm\:mt-5{
+    margin-top: 1.25rem;
+  }
+
+  .sm\:mb-5{
+    margin-bottom: 1.25rem;
+  }
+
+  .sm\:mb-10{
+    margin-bottom: 2.5rem;
+  }
+
+  .sm\:mb-20{
+    margin-bottom: 5rem;
+  }
+
+  .sm\:mt-0{
+    margin-top: 0px;
+  }
+
+  .sm\:mt-\[5px\]{
+    margin-top: 5px;
+  }
+
   .sm\:h-\[460px\]{
     height: 460px;
   }
@@ -2784,6 +2883,18 @@ video {
 
   .sm\:gap-3{
     gap: 0.75rem;
+  }
+
+  .sm\:gap-5{
+    gap: 1.25rem;
+  }
+
+  .sm\:gap-10{
+    gap: 2.5rem;
+  }
+
+  .sm\:gap-0{
+    gap: 0px;
   }
 
   .sm\:rounded-3xl{
