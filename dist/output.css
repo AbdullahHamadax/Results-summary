@@ -871,6 +871,11 @@ video {
   width: 100%;
 }
 
+.w-fit{
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 .w-\[300px\]{
   width: 300px;
 }
@@ -879,8 +884,16 @@ video {
   min-width: 100%;
 }
 
+.min-w-\[300px\]{
+  min-width: 300px;
+}
+
 .max-w-\[300px\]{
   max-width: 300px;
+}
+
+.max-w-full{
+  max-width: 100%;
 }
 
 .flex-shrink{
